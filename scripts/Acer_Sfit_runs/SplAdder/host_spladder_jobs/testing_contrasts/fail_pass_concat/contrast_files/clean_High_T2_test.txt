@@ -1,0 +1,8 @@
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R454/results_STAR_Salmon/host_R454_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R455/results_STAR_Salmon/host_R455_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R456/results_STAR_Salmon/host_R456_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R457/results_STAR_Salmon/host_R457_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R458/results_STAR_Salmon/host_R458_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R459/results_STAR_Salmon/host_R459_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R460/results_STAR_Salmon/host_R460_sorted.bam
+/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample/R461/results_STAR_Salmon/host_R461_sorted.bam

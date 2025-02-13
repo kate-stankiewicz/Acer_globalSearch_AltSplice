@@ -1,0 +1,16 @@
+Field_TF Control_T1
+Field_TF Control_T2
+Field_TF Control_T3
+Field_TF Control_T4
+Field_TF Control_T5
+High_T1 Control_T1
+Low_T1 Control_T1
+Low_T2 Control_T2
+Low_T3 Control_T3
+Low_T4 Control_T4
+Low_T5 Control_T5
+Medium_T1 Control_T1
+Medium_T2 Control_T2
+Medium_T3 Control_T3
+Medium_T4 Control_T4
+Medium_T5 Control_T5

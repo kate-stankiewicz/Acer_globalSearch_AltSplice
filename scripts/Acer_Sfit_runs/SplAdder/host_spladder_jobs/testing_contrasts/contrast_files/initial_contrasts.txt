@@ -1,0 +1,17 @@
+Initial_T0 Control_T1
+Initial_T0 Control_T2
+Initial_T0 Control_T3
+Initial_T0 Control_T4
+Initial_T0 Control_T5
+Initial_T0 Field_TF
+Initial_T0 High_T1
+Initial_T0 Low_T1
+Initial_T0 Low_T2
+Initial_T0 Low_T3
+Initial_T0 Low_T4
+Initial_T0 Low_T5
+Initial_T0 Medium_T1
+Initial_T0 Medium_T2
+Initial_T0 Medium_T3
+Initial_T0 Medium_T4
+Initial_T0 Medium_T5

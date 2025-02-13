@@ -1,0 +1,42 @@
+{
+    "organisms": ["Acer", "Sfit"],
+    "input_dir": "/proj/omics4tb2/GS_Workflow/GS_Pilot/Pilot_Caribbean/Acer/raw_data/Pilot_Pass",
+    "genome_dir": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/genomics",
+    "output_dir": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/results_per_sample",
+    "postrun_output_dir": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/results/RNASeq_pipeline/PostRun",
+    "log_dir": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/logs",
+    "genome_fasta": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/genomics/acer_sfit.genome.scaffolds.fa",
+    "genome_gff": "/proj/omics4tb2/kstankiewicz/scratch/alt_splice/GS_Pilot_Acer/genomics/acer_sfit.genome.annotation.gff3",
+    "fastq_patterns": ["*_{{readnum}}.fq*", "*_{{readnum}}.fastq*"],
+    "includes": [],
+    "include_file": "",
+    "deduplicate_bam_files": false,
+    "rnaseq_algorithm": "star_salmon",
+    "star_options": {
+        "runThreadN": 8,
+        "limitBAMsortRAM": 5784458574,
+        "outFilterMismatchNmax": 10,
+        "outFilterMismatchNoverLmax": 0.3,
+        "outFilterScoreMinOverLread": 0.66,
+        "outFilterMatchNmin": 0,
+        "twopassMode": true,
+        "outSAMattributes": ["All"],
+	"sjdbGTFtagExonParentTranscript": "Parent",
+        "limitSjdbInsertNsj": 1602710
+    },
+    "star_index_options": {
+        "runThreadN": 32,
+        "genomeChrBinNbits": 12,
+        "genomeSAindexNbases": 13
+    },
+    "sbatch_options": {
+        "array_max_tasks": 20,
+        "star_salmon": {
+            "options": [
+		"-c 8"
+            ],
+            "extras": ["source ~/anaconda3/etc/profile.d/conda.sh",
+          "conda activate STAR"]
+        }
+    }
+}
