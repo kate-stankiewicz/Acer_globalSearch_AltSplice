@@ -2,6 +2,7 @@ Repository for data processing and analysis scripts for Global Search project in
 
 Input RNA-seq files can be accessed at NCBI BioProject PRJNA1213837.
 
+NOTE: batch scripts are designed to run on a SLURM cluster.
 
 Steps for running data analysis:
 
@@ -10,6 +11,7 @@ Part 1: Run RNA-seq pipeline (Acer_globalSearch_AltSplice/scripts/Acer_Sfit_runs
 1. After downloading RNA-seq files (NCBI BioProject PRJNA1213837), run the GS pipeline (https://github.com/baliga-lab/Global_Search ) using the .json files and the metadata (Acer_globalSearch_AltSplice/metadata/AC_clean_meta_full.tsv)
 2. Prepare the resulting BAM files for SplAdder (see ReadMe in prepare_bams_for_spladder)
 3. Next run htseq
+   NOTE: samples were split into two folders, thus the pipeline was run a second time to capture the missing samples (Acer_Sfit_for_SplAdder_51Fail.json). 
 
 Part 2: Run the SplAdder pipeline (separately for the host and the symbiont; Acer_globalSearch_AltSplice/scripts/Acer_Sfit_runs/SplAdder)
 1. Step1 generates the splice graph for each sample individually 
